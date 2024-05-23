@@ -18,7 +18,7 @@ def calculate():
   elif option == "/":
     return first_num / second_num
   else:
-    return "Invalid option"
+    return "Invalid option, try again"
 
 inputs = get_input()
 result = calculate()
